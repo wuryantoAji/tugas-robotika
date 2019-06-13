@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot xmlns:xacro="https://www.ros.org/wiki/xacro">
     <xacro:macro name="link_wheel" params="name">
       <link name="${name}">
           <inertial>
@@ -68,13 +68,13 @@
       </joint>
     </xacro:macro>
 
-  <!--
+
 	<xacro:macro name="cylinder_inertia" params="mass r l"> 
     		<inertia ixx="${mass*(3*r*r+l*l)/12}" ixy = "0" ixz = "0"
                	 iyy="${mass*(3*r*r+l*l)/12}" iyz = "0" izz="${mass*(r*r)/2}" /> 
 	</xacro:macro>
 	
 	
-	<xacro:cylinder_inertia mass="1" r="0.05" l="0.1" />-->
+	
  
 </robot>

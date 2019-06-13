@@ -73,7 +73,7 @@
 <gazebo reference="sensor_laser">
   <sensor type="ray" name="head_hokuyo_sensor">
     <pose>0 0 0 0 0 0</pose>
-    <visualize>false</visualize>
+    <visualize>true</visualize>
     <update_rate>20</update_rate>
     <ray>
       <scan>
@@ -102,7 +102,7 @@
   </sensor>
 </gazebo>
 
-<gazebo reference="camera">
+<!-- <gazebo reference="camera">
     <material>Gazebo/Green</material>
     <sensor type="camera" name="camera1">
       <update_rate>30.0</update_rate>
@@ -133,6 +133,6 @@
         <distortionT2>0.0</distortionT2>
       </plugin>
     </sensor>
-  </gazebo>
+  </gazebo> -->
 
 </robot>
